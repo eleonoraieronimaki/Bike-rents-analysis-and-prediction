@@ -1,5 +1,3 @@
-# machine_learning_experiments
-
 # Bike rentals analysis and prediction with Machine Learning methods
 
 
