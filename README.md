@@ -33,4 +33,4 @@ Cluster the data using hierarchical clustering.
 - ### Random forest regressor
 Random forest regressor model to predict the number of bike rentals. In order to tune the parameters the random search method is used.
 - ### MLP regressor
-MLP regressor to predict the total number of bikes rented. RandomizedSearchCV is used to with cv=5 to use a validation set to find the best parameters: hidden_layer_sizes (165,77)
+MLP regressor to predict the total number of bikes rented. RandomizedSearchCV is used to with cv=5 to use a validation set to find the best parameters: hidden_layer_sizes (165,77). MLP is the best model for this problem as it yields the highest R2 score both on train and test sets.
